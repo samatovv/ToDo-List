@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom"
 import { HomePage } from "../pages/HomePage"
+import AboutPage from "../pages/about/index.jsx";
 
 
 export const MyRoutes = () => {
@@ -10,7 +11,7 @@ export const MyRoutes = () => {
         },
         {
             path: 'about',
-            element: <HomePage/>
+            element: <AboutPage/>
         }
     ])
 }
