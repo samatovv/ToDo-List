@@ -7,6 +7,10 @@ export const MyRoutes = () => {
         {
             path: '/',
             element: <HomePage/>
+        },
+        {
+            path: 'about',
+            element: <HomePage/>
         }
     ])
 }
